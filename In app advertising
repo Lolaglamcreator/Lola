@@ -1,3 +1,18 @@
 1234113204415805
 RESELLER
 1681012549104738
+FBAudienceNetwork
+FBRewardedInterstitialAdDelegate
+rewardedInterstitialAd: FBRewardedInterstitialAd?
+} 1234113204415805 
+rewardedInterstitialAd.load()
+rewardedInterstitialAdVideoComplete
+func rewardedInterstitialAdDidLoad(_ rewardedInterstitialAd: FBRewardedInterstitialAd) {
+func rewardedInterstitialAd(_ rewardedInterstitialAd: FBRewardedInterstitialAd, didFailWithError error: Error) {
+func rewardedInterstitialAdDidClick(_ rewardedInterstitialAd: FBRewardedInterstitialAd) {
+func rewardedInterstitialAdDidClose(_ rewardedInterstitialAd: FBRewardedInterstitialAd) {
+func rewardedInterstitialAdVideoComplete(_ rewardedInterstitialAd: FBRewardedInterstitialAd) {
+func showRewardedInterstitialAd() {
+rewardedInterstitialAd = rewardedInterstitialAd, rewardedInterstitialAd.isAdValid
+rewardedInterstitialAd.show(fromRootViewController: self)
+}
